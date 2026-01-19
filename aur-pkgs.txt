@@ -1,0 +1,14 @@
+ani-cli
+caelestia-meta
+dms-shell-bin
+dms-shell-bin-debug
+grub-customizer-git
+paru
+paru-debug
+pipes.sh
+protonplus
+ranger-git
+tty-clock
+unimatrix-git
+yay
+zen-browser-bin
