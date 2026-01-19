@@ -1,7 +1,7 @@
 # Arch-Set-Re
 How to fully setup my Arch Linux setup
 
-1.Install Arch normally
+1. Install Arch normally
 
 2. Install Yay:
           `$ sudo pacman -Syu --needed base-devel git`
