@@ -1,10 +1,10 @@
 # Arch-Set-Re
-how to fully setup my arch linux setup
+How to fully setup my Arch Linux setup
 
-1. Install Arch as normal
+1.Install Arch normally
 
 2. Install Yay:
-          `$ sudo pacman -Sy --needed base-devel git`
+          `$ sudo pacman -Syu --needed base-devel git`
           `$ git clone https://aur.archlinux.org/yay.git`
           `$ cd yay`
           `$ makepkg -si`
@@ -45,11 +45,16 @@ how to fully setup my arch linux setup
 11. Enabling GDM:
           `$ sudo systemctl enable --now gdm`
 
-12: Reboot
+12. Reboot
 
-13: Copy the files from .config to your own .config (using nautilus)
+13. Copy the files from .config to your own .config (using nautilus)
 
-14: Sign into zen browser, proton vpn, steam, and sober
+14. Install ML4W Wallpapers:
+         `$ mkdir $HOME/Pictures`
+         `$ cd $HOME/Pictures`
+         `$ git clone https://github.com/mylinuxforwork/wallpaper.git`
+
+15: Sign into zen browser, Proton VPN, Steam, and Sober (Roblox)
 
 
 That should be all! This should set up my Arch setup on a fresh install of Arch Linux
