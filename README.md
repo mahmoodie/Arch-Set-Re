@@ -4,7 +4,7 @@ how to fully setup my arch linux setup
 1. Install Arch as normal
 
 2. Install Yay:
-          $ sudo pacman -Sy --needed base-devel git
+          '''$ sudo pacman -Sy --needed base-devel git'''
           $ git clone https://aur.archlinux.org/yay.git
           $ cd yay
           $ makepkg -si
