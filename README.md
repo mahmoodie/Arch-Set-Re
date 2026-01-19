@@ -24,3 +24,32 @@ how to fully setup my arch linux setup
 6. Install AUR packages:
           `$ yay --needed -S - < aur-pkgs.txt`
 
+7. Setup LazyVim:
+         `$ git clone https://github.com/LazyVim/starter ~/.config/nvim`
+         `$ rm -rf ~/.config/nvim/.git`
+8. Test LazyVim:
+         `$ nvim`
+
+9. Setting up Caelesta-Shell (finally):
+       - Install some dependecnies:
+                   `$ sudo pacman --needed -S git wget curl gcc fish`
+       - Clone the installer script:
+                  `$ git clone https://github.com/caelestia-dots/caelestia.git ~/.local/share/caelestia`
+       - Run the installer script:
+                  `$ ~/.local/share/caelestia/install.fish
+       - Follow the instructions
+
+10. Installing Sober:
+          `$ flatpak install flathub org.vinegarhq.Sober`
+
+11. Enabling GDM:
+          `$ sudo systemctl enable --now gdm`
+
+12: Reboot
+
+13: Copy the files from .config to your own .config (using nautilus)
+
+14: Sign into zen browser, proton vpn, steam, and sober
+
+
+That should be all! This should set up my Arch setup on a fresh install of Arch Linux
