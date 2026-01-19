@@ -31,12 +31,12 @@ How to fully setup my Arch Linux setup
          `$ nvim`
 
 9. Setting up Caelesta-Shell (finally):
-       - Install some dependecnies:
+       - Install some dependencies:
                    `$ sudo pacman --needed -S git wget curl gcc fish`
        - Clone the installer script:
                   `$ git clone https://github.com/caelestia-dots/caelestia.git ~/.local/share/caelestia`
        - Run the installer script:
-                  `$ ~/.local/share/caelestia/install.fish
+                  `$ ~/.local/share/caelestia/install.fish`
        - Follow the instructions
 
 10. Installing Sober:
